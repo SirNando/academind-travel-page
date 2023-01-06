@@ -1,0 +1,42 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+header {
+    padding: 10px;
+    /* width: 600px; */
+    display: flex;
+    flex-direction: row; /* Default value */
+    flex-wrap: nowrap; /* Default value, it determines whether items will collapse on a smaller screen instead of showing next to each other */
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  padding: 5px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#page-logo a {
+    padding: 10px;
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(245, 243, 160);
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
