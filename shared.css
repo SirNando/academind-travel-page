@@ -35,6 +35,24 @@ header a {
   font-size: 20px;
 }
 
+footer {
+  background: linear-gradient(45deg, rgb(59, 65, 64), rgb(12, 13, 13));
+}
+
+footer li {
+  width: 80px;
+  height: 80px;
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
+}
+
+.social-media {
+  padding: 10px 20px;
+}
+
 #navbar {
   display: flex;
   justify-content: space-evenly;
@@ -57,4 +75,11 @@ header a {
   font-size: 50px;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+#contact-info {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
 }
